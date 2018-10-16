@@ -1,0 +1,100 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* HEADER & FOOTER */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/* HEADER */
+
+.fusion-header-wrapper{
+	.fusion-header-v1{
+		.fusion-header{
+			.fusion-row{
+				.fusion-flyout-menu{height: 100%!important; margin-top: 0!important; padding: 25px!important;}
+				.fusion-main-menu, .fusion-flyout-mobile-menu{
+					ul{
+						li{
+							a{-webkit-font-smoothing: subpixel-antialiased!important;
+								.menu-text{text-transform: uppercase!important; -webkit-font-smoothing: antialiased!important;;}
+							}
+						}
+						#menu-item-27{
+							a{padding-left: 30px!important;}
+						}
+						#menu-item-28{
+							a{padding-left: 12px!important;}
+						}
+						#menu-item-27, #menu-item-28{
+							a{padding-right: 0!important;
+								&:hover{background: transparent!important;
+									.fusion-megamenu-icon{
+										.fab{background: @orange1; .transition();}
+									}
+								}
+								.fusion-megamenu-icon{
+									.fab{padding: 0!important; font-size: 20px; color: @white; background: @slate1; line-height: 40px!important; width: 40px!important; height: 40px!important; .border-radius(@border-radius: 20px);}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/* FOOTER */
+
+/* Copyright Styling */
+.fusion-footer{
+	.fusion-footer-copyright-area{padding: 38px 40px 33px!important;
+		.fusion-copyright-content{
+			.fusion-copyright-notice{display: flex!important; flex-direction: column-reverse!important;
+				.fusion-social-links-footer{margin: 0 0 15px!important;
+					.fusion-social-networks{margin-top: 0!important;
+						.fusion-social-networks-wrapper{
+							a{margin: 0 5px!important;
+								&:hover{background: @orange1; opacity: 1!important;}
+							}
+						}
+					}
+				}
+				.policy{
+					a{.border(@border: 0 0 1px 0); border-color: transparent!important; display: inline-block; line-height: 20px!important;
+						&:hover{.border(@border: 0 0 1px 0); border-color: @grey3;}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+/* MEDIA QUERIES 500px ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media only screen and (max-width: 500px) {
+	
+	
+	/* HEADER */
+
+	.fusion-header-wrapper{
+		.fusion-header-v1{
+			.fusion-header{padding-left: 20px; padding-right: 20px;}
+		}
+	}
+	
+
+}
